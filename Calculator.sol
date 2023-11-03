@@ -6,19 +6,19 @@ contract Calculatpr {
 
     uint256 result = 0;
 
-    function add(uint256 num) public {
+    function add (uint256 num) public {
         result += num;
     }
 
-    function subtract(uint256 num) public{
+    function subtract (uint256 num) public{
         result -= num;
     }
 
-    function multiply(uint256 num) public {
+    function multiply (uint256 num) public {
         result *= num;
     }
 
-    function get() public view returns (uint256) {
+    function get () public view returns (uint256) {
         return result;
     }
 }
